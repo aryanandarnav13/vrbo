@@ -45,7 +45,7 @@ const Form = () => {
       ) : (
         <form onSubmit={handleSubmit}>
           <div>
-            <label for="address">Enter address</label>
+            <label htmlFor="address">Enter address</label>
             <input
               type="text"
               id="address"
@@ -53,7 +53,7 @@ const Form = () => {
             />
           </div>
           <div>
-            <label for="pageSize">Enter page size</label>
+            <label htmlFor="pageSize">Enter page size</label>
             <input
               type="text"
               id="pageSize"
